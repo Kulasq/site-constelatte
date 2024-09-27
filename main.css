@@ -1,0 +1,73 @@
+body {
+    font-family: "Inconsolata", monospace;
+    background-image: url('./images/background.webp');
+}
+
+.navbar {
+    background-color: rgb(246, 219, 172);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: rgb(110, 95, 74);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: rgb(110, 95, 74);
+}
+
+.navbar-toggler {
+    background-color: rgba(110, 95, 74, 0.5);
+}
+
+.section-title {
+    font-family: "Dancing Script", cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio,
+#eventos,
+#fale-conosco,
+footer {
+    background-color: rgba(246, 219, 172, 0.8);
+}
+
+.text-colored {
+    color: rgb(110, 95, 74);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #fff;
+    color: rgb(110, 95, 74);
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .carousel-item img {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.carousel-item {
+    max-height: 600px;
+}
